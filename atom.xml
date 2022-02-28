@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-02-28T13:38:00.751Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>uzi</title>
+    <link href="http://example.com/2022/02/28/uzi/"/>
+    <id>http://example.com/2022/02/28/uzi/</id>
+    <published>2022-02-28T13:37:05.000Z</published>
+    <updated>2022-02-28T13:38:00.751Z</updated>
+    
+    <content type="html"><![CDATA[<p>查看实例  <a href="1.c">点击下载</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;查看实例  &lt;a href=&quot;1.c&quot;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>共享网盘使用规范</title>
+    <link href="http://example.com/2022/01/24/%E5%85%B1%E4%BA%AB%E7%BD%91%E7%9B%98%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83/"/>
+    <id>http://example.com/2022/01/24/%E5%85%B1%E4%BA%AB%E7%BD%91%E7%9B%98%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83/</id>
+    <published>2022-01-24T07:52:50.217Z</published>
+    <updated>2022-01-24T08:26:13.041Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.目的<br>为了健康使用共享存储，通过限制配额、推荐存储内容、管理目录权限、制定存储清理规则。来规范共享存储的使用方法。<br>2.配额限制规则<br>配额限制暂时没有合理的划分方法。根据目前的使用情况，初始建议采用以下方式。运维与IT团队登记并维护各个目录配额、目录当前负责人等信息。</p><p>2.1.部门配额<br>部门名称    部门总容量    子部门名称    子部门容量    每次扩容    备注<br>研发中心    1250G    产品设计部    100G    10G<br>        网络安全开发部    100G    10G<br>        测试部    200G    10G<br>        运维与IT部    100G    10G<br>        项目管理部    150G    10G<br>        终端安全开发部    100G    10G<br>        平台安全开发部    100G    10G<br>        行业开发部    100G    10G<br>        系统架构部    100G    10G<br>        移动安全实验室    100G    10G<br>        产品规划部    100G    10G<br>集成电路设计中心    1600G    设计研发部    1000G    10G<br>        驱动开发部    600G    10G<br>IOT业务开发部    300G            10G<br>生产中心    300G            10G<br>其他部门    300G    总经办    300G    10G<br>    300G    人力资源    300G    10G<br>    300G    战略市场部    300G    10G<br>    100G    其他    100G    10G    剩余部门整体</p><p>2.2.产品配额<br>每个产品目录中默认创建“提测文件”目录，用于放置各产品版本提测包。该版本测试完成后，请主动清理该目录内文件。<br>产品分类    总容量    产品名称    产品容量    每次扩容    备注<br>网安产品    730G    密钥管理系统    30G    10G<br>        安全接入    30G    10G<br>        CA    30G    10G<br>        ITSCA    30G    10G<br>        空中发证    30G    10G<br>        签名验签服务器    30G    10G<br>        云密钥安全管理系统    30G    10G<br>        大气激光单向安全隔离系统    30G    10G<br>        5G安全接入网关    30G    10G<br>        密码资源池管理系统    30G    10G<br>        量子密钥充注机    30G    10G<br>        云服务密码机    30G    10G<br>平台产品        集中管控    30G    10G<br>        VHSM    30G    10G<br>        IDPS&amp;VSOC    30G    10G    西安<br>终端产品        双域安全终端    30G    10G<br>设备产品        云服务密码机    30G    10G<br>其他        安全盒    60G    10G    西安<br>        安全邮件    30G    10G    已停<br>        OA    60G    10G    已停<br>        其他    70G    10G    其他已停产品</p><p>2.3.项目配额<br>暂无项目登记，若有，则每个项目5G空间，如需扩容根据实际情况沟通处理。<br>2.4.个人网盘配额<br>默认每人2G空间，如需扩容，根据实际情况沟通处理。<br>2.5.公司资料配额<br>存放公司资料，默认50G空间。<br>2.6.应用软件库配额<br>存放办公常用软件安装包，默认500G空间。<br>2.7.共享资料配额<br>存放培训资料、员工活动照片、招聘照片等。默认500G空间<br>2.8.镜像文件配额<br>镜像文件提供专门的服务器存储。如果目录中没有需要的镜像或需要往目录中增加镜像，均可直接联系运维与IT团队。共享网盘中如无特殊原因，禁止上传镜像文件。<br>镜像文件存储路径：\mirror.xdja.com\信大捷安\操作系统<br>2.9.暂存一个月的目录配额<br>如无特殊情况默认300G上限，不扩容，定期由运维与IT团队清理。<br>上传文件时，请在文件名称后同时备注使用周期（例如：XX文件-2022-3-10，即2022-3-10后可删），如未标注，则视为临时文件，默认保留一个月。<br>3.存储内容规范<br>推荐使用共享网盘管理培训资料、学习资料。如果需要上传一些临时性的文件，请及时清理。<br>重要的文档类资料或代码，请上传至svn或git。<br>4.存储目录权限管理<br>4.1.结构权限<br>1.一级目录为信大捷安，不允许在该目录下随意创建文件或文件夹。<br>2.二级目录分为部门目录、产品目录、项目目录、个人网盘、公司资料、应用软件库、共享资料、临时目录，不允许在该目录下随意创建文件或文件夹。<br>3.三级目录中，<br>(1)二级目录若是部门目录，则当前目录只能根据公司规划的部门名称由运维与IT团队创建对应部门名称目录，不允许随意创建文件或文件夹。<br>(2)二级目录若是产品目录，则当前目录根据产品负责人或SM申请，由运维与IT团队创建对应的产品目录，不允许随意创建文件或文件夹。<br>(3)二级目录若是项目目录，则当前目录根据项目负责人或SM申请，由运维与IT团队创建对应的项目目录，不允许随意创建文件或文件夹。<br>(4)二级目录若是临时目录，则当前目录不限制。<br>4.四级目录中<br>(1)若部门下有子部门，比如研发中心下有产品规划部等部门，则该目录只能根据公司规划的部门名称由运维与IT团队创建对应部门名称的目录，不允许随意创建。<br>(2)若是产品、项目目录，则该四级目录不限制。<br>5.五级目录不限制。<br>4.2.读写权限<br>1.部门目录只允许各个部门内部成员查看、写入、删除，非本部门成员不可查看、写入、删除。<br>2.产品目录、项目目录允许全员查看，产品团队、项目团队内部成员可查看、写入、删除（需要产品负责人、项目负责人或SM提供人员名单）。<br>3.个人网盘只允许个人查看、写入、删除。<br>4.应用软件库、公司资料、共享资料默认全员查看。</p><p>5.存储清理要求<br>1.部门目录由各部门负责人定期清理。<br>2.产品目录由各产品负责人定期清理。<br>3.项目目录由各项目负责人定期清理。<br>4.临时目录，由运维与IT团队定期清理。<br>6.占用空间估算<br>按目前规则估算，需要占用的总空间如下：<br>以下单位均为G<br>总容量=部门（4460）+产品（730）+项目（0）+个人网盘（900）+公司资料（50）+应用软件库（500）+共享资料（500）+临时目录（300）+其他（10）=7450<br>风险：<br>目前已存数据中，安全接入产品（173+2.2+15.6≈200）、安全盒产品（127.1）等还有一些未统计到的其他产品历史数据，不确定是否能清理，此类不确定能否清理的文件初步估算，大约在600G（目录较分散，估算有风险）左右。<br>当前给各产品规划空间为50G，存在产品实际需要占用的空间大于50G的风险。<br>当前暂未给项目预留空间，将来可能存在项目较多或部分项目实际需要占用空间大于30G的风险。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.目的&lt;br&gt;为了健康使用共享存储，通过限制配额、推荐存储内容、管理目录权限、制定存储清理规则。来规范共享存储的使用方法。&lt;br&gt;2.配额限制规则&lt;br&gt;配额限制暂时没有合理的划分方法。根据目前的使用情况，初始建议采用以下方式。运维与IT团队登记并维护各个目录配额、目录当</summary>
+      
+    
+    
+    
+    <category term="blog" scheme="http://example.com/categories/blog/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>text1</title>
+    <link href="http://example.com/2022/01/21/text1/"/>
+    <id>http://example.com/2022/01/21/text1/</id>
+    <published>2022-01-21T11:43:41.000Z</published>
+    <updated>2022-01-24T07:50:30.901Z</updated>
+    
+    <content type="html"><![CDATA[<p>你好啊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;你好啊&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="blog" scheme="http://example.com/categories/blog/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/01/21/hello-world/"/>
+    <id>http://example.com/2022/01/21/hello-world/</id>
+    <published>2022-01-21T08:40:42.767Z</published>
+    <updated>2022-01-21T08:40:42.768Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
